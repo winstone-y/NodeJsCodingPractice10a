@@ -1,0 +1,20 @@
+### API 1
+
+#### Path: `/login/`
+
+#### Method: `POST`
+
+POST http://localhost:3000/login/
+Content-Type: application/json
+
+{
+  "username": "christopher_phillips",
+  "password": "christy@123"
+}
+###
+
+GET http://localhost:3000/states/
+AUTHORIZATION: Bearer eyJhbGciOiJIUzI1NiJ9.Y2hyaXN0b3BoZXJfcGhpbGxpcHM.BbSVGcgUJQwsweFwJDIwhrdparHFtt6tqX7ckFS4A6Y
+Content-Type: application/json
+
+###
